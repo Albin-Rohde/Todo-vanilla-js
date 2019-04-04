@@ -1,0 +1,16 @@
+.content-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
+.todos{
+    display: flex;
+    flex-flow: column;
+}
+
+.todos--done{
+    display: flex;
+    flex-flow: column;
+}

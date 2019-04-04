@@ -1,0 +1,53 @@
+.card{
+    min-width: 80vw;
+    margin: 0.5vh 2vw;
+    padding: 2vh 5vw;
+    border-radius: 20px;
+}
+
+.card > input{
+    width: 100%;
+    height: 1.5em;
+}
+
+.card--item{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card__lgreen{
+    background-color: lightgreen;
+}
+
+.card__lblue{
+    background-color: lightblue;
+}
+
+.card__pink{
+    background-color: pink;
+}
+
+.card__lgray{
+    background-color: lightgrey;
+}
+
+.card__lcoral{
+    background-color: lightcoral;
+}
+
+.card__peach{
+    background-color: peachpuff;
+}
+
+.card__pblue{
+    background-color: powderblue;
+}
+
+.card__brown{
+    background-color: rosybrown;
+}
+
+.card__lskyblue{
+    background-color: lightskyblue;
+}

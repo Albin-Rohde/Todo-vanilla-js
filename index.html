@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="style/todo.css">
+</head>
+<body>
+  <header><h1>Albins cool todo</h1></header>
+  <section class="content-container">
+    <section class="card card--top card__lblue">
+      <form>
+        <legend>Title:</legend>
+        <input class="title" type="text" name="title">
+
+        <legend>Description:</legend>
+        <input class="description" type="text" name="description">
+        <button class="btn--add">Add</button>
+      </form>
+      <button data-order='newest' class="btn--order">Order</button>
+    </section>
+  </section>
+  <br>Todo:
+  <div class="todos"></div>
+  <br><hr>Done todo
+  <div class="todos--done"></div>
+  <script async defer src="js/index.js"></script>
+</body>
+</html>
